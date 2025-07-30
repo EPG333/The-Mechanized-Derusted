@@ -6,161 +6,182 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Artificial Feedery
   rotate: false
-  xy: 4, 44
+  xy: 4, 80
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bio Material Recycling
   rotate: false
-  xy: 268, 272
+  xy: 268, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Bio-Waste Purifier
+  rotate: false
+  xy: 268, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Black Smoker
   rotate: false
-  xy: 268, 164
+  xy: 1308, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Cleaner Nucleator
   rotate: false
-  xy: 1308, 372
+  xy: 112, 80
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Control Router
   rotate: false
-  xy: 112, 44
+  xy: 376, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Enslave Inferiors
   rotate: false
-  xy: 376, 164
+  xy: 1416, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fabricated Paradise
   rotate: false
-  xy: 1416, 372
+  xy: 484, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fish Farm Regulator
   rotate: false
-  xy: 484, 164
+  xy: 1524, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Freezing Room
   rotate: false
-  xy: 1524, 372
+  xy: 592, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Integrate Enslaved Into Society
   rotate: false
-  xy: 700, 164
+  xy: 1740, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Life Creation Lab
   rotate: false
-  xy: 684, 272
+  xy: 684, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Mass Breedery
+BuildingIcons/Machina Community Centre
   rotate: false
-  xy: 1740, 372
+  xy: 1848, 408
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Mass Energizer
+BuildingIcons/Mass Creator Kit
   rotate: false
-  xy: 808, 164
+  xy: 916, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mass Power Cell
+  rotate: false
+  xy: 1024, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mechanized Core
   rotate: false
-  xy: 892, 272
+  xy: 892, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Next-Gen Creation Lab
   rotate: false
-  xy: 916, 164
+  xy: 1308, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rations Dispenser
   rotate: false
-  xy: 1024, 164
+  xy: 1416, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Smart Processing Plant
   rotate: false
-  xy: 1308, 264
+  xy: 1632, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Solar Power AI
   rotate: false
-  xy: 1100, 272
+  xy: 1100, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Solar Powered Furnace
   rotate: false
-  xy: 1416, 264
+  xy: 1740, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Track Survivors
   rotate: false
-  xy: 1632, 264
+  xy: 328, 92
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Hacking site
   rotate: false
-  xy: 1632, 372
+  xy: 700, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Solar array
+  rotate: false
+  xy: 1848, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Mechanized
   rotate: false
-  xy: 1524, 264
+  xy: 220, 80
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/High Mind
   rotate: false
-  xy: 476, 272
+  xy: 476, 308
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -172,30 +193,72 @@ TileSets/FantasyHex/Tiles/Hacking site
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Life Research Site
+  rotate: false
+  xy: 1956, 480
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Decimator
+  rotate: false
+  xy: 4, 44
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Life Surveillance Drone
+  rotate: false
+  xy: 1240, 260
+  size: 32, 40
+  orig: 32, 40
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Medical Support Drone
   rotate: false
-  xy: 4, 152
+  xy: 4, 188
   size: 256, 320
   orig: 256, 320
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Ravager
+  rotate: false
+  xy: 436, 164
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Reclaimer
+  rotate: false
+  xy: 44, 44
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 UnitIcons/Gunner Drone
   rotate: false
-  xy: 592, 164
+  xy: 1632, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Life Surveillance Drone
+  rotate: false
+  xy: 808, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Medical Support Drone
   rotate: false
-  xy: 1848, 372
+  xy: 1132, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Refurbished Purge Robot
   rotate: false
-  xy: 1132, 164
+  xy: 1524, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
