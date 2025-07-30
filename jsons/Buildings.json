@@ -356,10 +356,10 @@
 		"uniques": [
 			"Consumes [1] [Power]",
 			"[-30]% enemy spy effectiveness [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"[+1 Happiness] [in this city] <after adopting [Constitution Complete]>",
 			"Only available <in cities without a [Enslave Inferiors]>",
-			"Unsellable",
+			"Only available <when espionage is enabled>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Computers"
