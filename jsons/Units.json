@@ -1,5 +1,26 @@
 [
 	{
+		"name": "Autonomous Sapper",
+		"unitType": "Scout",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Scout",
+		"range": 1,
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 15,
+		"cost": 25,
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Forward Observer",
+		"uniques": [
+			"Automated",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[Target Unit] gains the [Wire Trapped] status for [5] turn(s) <upon damaging a [{Military} {Land}] unit>"
+		],
+		"promotions": ["Automated", "Skirmish", "Reconnaissance I"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
 		"name": "Gunner Drone",
 		"replaces": "Blimp",
 		"uniqueTo": "The Mechanized",
@@ -14,6 +35,7 @@
 		"obsoleteTech": "Gyroscopes",
 		"upgradesTo": "Helicopter",
 		"uniques": [
+			"Automated",
 			"[+25]% Strength <vs [Armor] units>",
 			"Can move after attacking",
 			"[-25]% Strength <vs cities> <when attacking>",
@@ -24,6 +46,94 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
+	{
+		"name": "Reclaimer",
+		"replaces": "Attack Vehicle",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 30,
+		"cost": 90,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"Automated",
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[+20]% Strength <vs [Barbarian] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Consumes [1] [Power]"
+		],
+		"promotions": ["Automated"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+		"civilopediaText": [
+			{
+				"text": "Anti-riot vehicle that main usage was to pacify riots during the Old Wolrd era. Now its new purpose is to pacify those who roam the wastelands"
+			}]
+	},
+	{
+		"name": "Decimator",
+		"replaces": "Armored Car",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 45,
+		"cost": 175,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Automated",
+			"[+20]% Strength <vs [Personel] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Oil]",
+		],
+		"promotions": ["Automated"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	"civilopediaText": [
+			{
+				"text": "Relic of the Old World Era made with a thought of cleaning the cities and the battlefields alike. Far from the prevoius models but still as fiery as before."
+			}
+		]
+	}, 
+	{
+		"name": "Ravager",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Tank",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 250,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Advanced Materials",
+		"uniques": [
+			"Automated",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Oil]",
+		
+		],
+		"promotions": ["Automated", "Drone Recon", "Drone Support"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+		"civilopediaText": [
+			{
+				"text": "Hellish example of what humans used against themself during the Old World era. Now, once again those horrors can be unleashed in thier derusted form."
+			}]
+	},
+
 	{
 		"name": "Refurbished Purge Robot",
 		"replaces": "Salvaged Purge Robot",
@@ -39,8 +149,7 @@
 		"uniques": [
 			"Automated",
 			"Promotion Nullifier",
-			"Purge Robot",
-			"Can build [Land] improvements on tiles",
+			"Can build [All] improvements on tiles",
 			"[-25]% construction time for [All] improvements",
 			"Can move after attacking",
 			"No defensive terrain penalty",
@@ -61,33 +170,25 @@
 				"text": "A Purge Robot that originally operated during the Old World era. Some of its combat effectiveness was sacrificed when it was refurbished and repurposed for manual labor."
 			}
 		]
-	}
-	/*{
-		"name": "Medical Support Drone",
-		"replaces": "Wandering Doctor",
+	},
+
+	{
+		"name": "Life Surveillance Drone",
 		"uniqueTo": "The Mechanized",
-		"unitType": "Helicopter",
-		"range": 1,
-		"interceptRange": 1,
-		"movement": 3,
-		"strength": 15,
-		"rangedStrength": 20,
-		"cost": 100,
-		"requiredTech": "Biology",
-		"obsoleteTech": "Pharmaceuticals",
-		"upgradesTo": "Helicopter",
+		"replaces": "Great Farmer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 300,
 		"uniques": [
-			"Can move after attacking",
-			"All adjacent units heal [+5] HP when healing",
-			"[-1] Sight",
-			"[-25]% Strength <vs cities>",
-			"Withdraws before melee combat <with [25]% chance>",
-			"Only available <in cities with a [Hospital]>",
-			"Consumes [1] [Power]"
-		],
-		"promotions": ["Automated", "Medic I", "Medic II"],
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
-		//Commented out for now; while this denies the faction a UU, it lets the mod be used without Outlaws of the Wastes
-	}*/
+			"Can instantly construct a [Life Research Site] improvement <by consuming this unit>",
+			"Comment [Warning Life Research Sites Consume Power!]",
+			"Is part of Great Person group [Farmer]", "Great Person - [Food]",
+			"Can only be built <in cities with a [Life Creation Lab]>",
+			"Requires at least [12] population",
+			"Can only be built <in [Capital] cities>",
+			"Cannot be purchased"
+		]
+			"requiredTech": "Biology",
+	},
+
 ]
