@@ -13,5 +13,81 @@
 			"Pillaging this improvement yields approximately [+20 Science]"
 		],
 		"shortcutKey": "K"
-	}
+	},
+		{
+		"name": "Solar array",
+		"replaces": "Solar collector",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert"
+		],
+		"production": 1,
+		"turnsToBuild": 14,
+		"techRequired": "Machinery",
+		"uniques": [
+			"Provides [1] [Power] <after discovering [Computers]>",
+			"[+1 Production] <after discovering [Plastics]>",
+			"[+1 Production] <after discovering [Advanced Materials]>",
+			"[+1 Production] <after discovering [Atmosphere Remediation]>",
+			"Cannot be built on [Tundra] tiles <before discovering [Satellites]>",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		
+		],
+	},
+		{
+		"name": "Life Research Site",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost",
+			"Swamp"
+		],
+		"science": 2,
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			
+			"Improves [Horses] resource in this tile",
+			"Improves [Cattle] resource in this tile",
+			"Improves [Goats] resource in this tile",
+			"Improves [Deer] resource in this tile",
+			"Improves [Furs] resource in this tile",
+			"Improves [Hostile Fauna] resource in this tile",
+			"Improves [Hogs] resource in this tile",
+			"Improves [Insects] resource in this tile",
+
+			"Improves [Algae] resource in this tile",
+			"Improves [Jellyfish] resource in this tile",
+			"Improves [Plankton] resource in this tile",
+			"Improves [Deep-sea Fish] resource in this tile",
+			"Improves [Mutant Eel] resource in this tile",
+
+			"Improves [Grain] resource in this tile",
+			"Improves [Tubers] resource in this tile",
+			"Improves [Maize] resource in this tile",
+			"Improves [Cactus] resource in this tile",
+
+			"Improves [Fungus] resource in this tile",
+
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Can only be built to improve a resource",
+			"[+1 Science] <after discovering [Laboratory]>",
+			"[+1 Science] <after discovering [Land Remediation]>",
+			"[+1 Science] <after discovering [Genetics]>",
+			"[+1 Science] <after discovering [Rewilding]>",
+			"Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+20 Science]",
+			"Consumes [1] [Power]"
+		],
+	},
 ]
