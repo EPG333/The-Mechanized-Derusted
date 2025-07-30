@@ -18,16 +18,22 @@
 		"hateHello": "*I am not going to answer inferior beings like you*",
 		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought.",
 
-		"outerColor": [180, 110, 45],
-		"innerColor": [120, 189, 0],
+		"outerColor": [144, 91, 54],
+		"innerColor": [160, 208, 76],
 		"style": "",
 		"uniqueName": "Synthetic Mankind",
+	// Possible nerfs:,
+	//-10% production and- 15% science in all cities removed until Networkin is discovered,
+	// Reason : New Life research site that is enabled after Biology tech is discovered that gives science - less science than Academy but spammable on disposable food tiles
+	// further notice If Life research site gets more yields in future then that change MUST be pushed
+	// +25% prod towards building already existing in capital completely removed or changed to only +15%
+	// The Mechanized already has a lot production potential soo why that unique exist here? -10% prod before computers but +15% (with maths +25%-10% = +15%) towards (almost) every building?
 	
 		"uniques":[
 			
 			"Comment [Cannot grow cities naturally with Food]",
 			"Comment [Can artificially create people with unique buildings]",
-		// BTW its a band aid
+			
 		"[-10 Food] from [Insects] tiles [in all cities] <hidden from users>",
 		"[-10 Food] from [Goats] tiles [in all cities] <hidden from users>",
 		"[-10 Food] from [Cattle] tiles [in all cities] <hidden from users>",
@@ -74,39 +80,49 @@
 		"[-10 Food] from every [Tree plantation] <hidden from users>",
 		"[-10 Food] from every [Wasteland Station] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-10 Food] from every [VX Refinery] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		"[-10 Food] from every [Lakes] <hidden from users>",
 		"[-10 Food] from every [Yurt] <hidden from users>",
-		
+// Possible Constitution growth-replacement stats fot base Deciv
 		"Comment [Food-based policies give other bonuses]",
-		"[+1 Production] [in capital] <after adopting [Differential Rationing]> <hidden from users>",
-		"[+5]% Production when constructing [All] buildings [in capital] <after adopting [Differential Rationing]> <hidden from users>",
+		"[+1 Production] [in capital] <after adopting [Differential Rationing]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		"[+5]% Production when constructing [All] buildings [in capital] <after adopting [Differential Rationing]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+
+		"[+1 Production] [in capital] <after adopting [Centralization]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+		"[+5]% Production when constructing [All] buildings [in capital] <after adopting [Centralization]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+
+		"[+3 Gold] [in all cities connected to capital] <after adopting [Planned Economy]> <hidden from users>",
 		"[+2 Production] [in all cities connected to capital] <after adopting [Adaptation Complete]> <hidden from users>",
 		"[+5]% [Gold] [in all cities] <after adopting [Adaptation Complete]> <hidden from users>",
-		"[+1 Faith, +1 Culture, -1 Food] from every [Seminary] <after adopting [Theocracy Complete]> <hidden from users>",
-		"[+2 Faith, +1 Culture, -1 Food] from every [Oracle] <after adopting [Theocracy Complete]> <hidden from users>",
+		
+		"[+1 Faith, +1 Culture, -1 Food] from every [Seminary] <after adopting [Theocracy Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		"[+2 Faith, +1 Culture, -1 Food] from every [Oracle] <after adopting [Theocracy Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[+1 Faith, +2 Gold, -1 Food] from every [Endowment House] <after adopting [Theocracy Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-		"[-2 Food, +1 Production, +1 Science] [in all cities] <after adopting [Collectivism Complete]> <hidden from users>",
-		"[+1 Gold, -1 Food] from every [Moisture trap] <after adopting [Monopoly Complete]> <hidden from users>",
-		"[+1 Gold, -1 Food] from every [Water pump] <after adopting [Monopoly Complete]> <hidden from users>",
-		"[+1 Production] from every [Refinery] <after adopting [Monopoly Complete]> <hidden from users>",
+		
+		"[-2 Food, +1 Production, +1 Science, +1 Gold] [in all cities] <after adopting [Collectivism Complete]> <hidden from users>",
+		"[+1 Gold, -1 Food] from every [Moisture trap] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		"[+1 Gold, -1 Food] from every [Water pump] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		"[+1 Production] from every [Refinery] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		
 		"[+1 Gold, -1 Food] from every [Caer] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[+2 Gold, -2 Food] from every [Supply Complex] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[+2 Gold, -2 Food] from every [Banana Business Area] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-		"[+2 Gold, +2 Culture] from every [Narcotics farm] <after adopting [Monopoly Complete]> <hidden from users>",
+		"[+2 Gold, +2 Culture] from every [Narcotics farm] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[+1 Gold, -2 Food] from every [Wasteland Station] <after adopting [Monopoly Complete]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-1 Food, +1 Science] from every [Coast] <in tiles without [Water resource]> <after adopting [Exclusive Zones]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-1 Food, +1 Science] from every [Ocean] <in tiles without [Water resource]> <after adopting [Exclusive Zones]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		
 		"[-2 Food, +1 Science] from every [Fish Farm] <after adopting [Aquaculture]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-2 Food, +1 Science] from every [Desalination Plant] <after adopting [Aquaculture]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-2 Food, +1 Science] from every [Ocean Seeder] <after adopting [Aquaculture]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"Cannot build [Low Tech] units",
 			"[Personnel] units gain the [Gas Mask] promotion",
 			"[Personnel] units gain the [Automated] promotion",
-			"Cannot build [Low Tech] units",
 			"Starts with [Construction]",
 			"Adopt [Mechanization] <upon entering the [Industrial era]>",
-			"[+25]% Production towards any buildings that already exist in the Capital",
 			"[-15]% [Science] [in all cities] <before discovering [Computers]>",
 			"[-10]% [Production] [in all cities] <before discovering [Computers]>",
-			"Nullifies Growth [in all cities]"
+			"[+3 Food] per [1] population [in all cities] <hidden from users>",
+			"Nullifies Growth [in all cities] <hidden from users>"
 		],
 		"cities": [
 			"Desert Vault",
