@@ -69,10 +69,6 @@
 		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
-		"civilopediaText": [
-			{
-				"text": "Anti-riot vehicle that main usage was to pacify riots during the Old Wolrd era. Now its new purpose is to pacify those who roam the wastelands"
-			}]
 	},
 	{
 		"name": "Decimator",
@@ -98,11 +94,6 @@
 		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
-	"civilopediaText": [
-			{
-				"text": "Relic of the Old World Era made with a thought of cleaning the cities and the battlefields alike. Far from the prevoius models but still as fiery as before."
-			}
-		]
 	}, 
 	{
 		"name": "Ravager",
@@ -128,10 +119,6 @@
 		"promotions": ["Automated", "Drone Recon", "Drone Support"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
-		"civilopediaText": [
-			{
-				"text": "Hellish example of what humans used against themself during the Old World era. Now, once again those horrors can be unleashed in thier derusted form."
-			}]
 	},
 
 	{
