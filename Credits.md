@@ -5,6 +5,7 @@ The Hacking site improvement and its tile art were borrowed from the "DeCiv 1" i
 All icons that have been added after he discontinued work on The Mechanized are from The Noun Project, licensed under Creative Commons or Public Domain (which has the unfortunate side effect of clashing with the custom images from the original mod maker).
 
 ### Building Icons
+- Better Organs Factory: [Organ printing](https://thenounproject.com/icon/organ-printing-2643130/) by by Eucalyp
 - Fabricated Paradise: [Bird of paradise](https://thenounproject.com/icon/bird-of-paradise-5295135/) by Amethyst Studio, TH
 - Next-Gen Creation Lab: [genetics setting](https://thenounproject.com/icon/genetics-setting-5474822/) by zafdesign, ID
 - Rations Dispenser: [Dispenser](https://thenounproject.com/icon/dispenser-4565083/) by Gustyne Pissesa Ardhaneswari, ID
