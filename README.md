@@ -1,2 +1,6 @@
 # The Mechanized, Derusted
-An attempt to rebalance The Mechanized faction, originally created by Bamboolord and is notorious among the DeCiv community as the faction whose gimmick makes it the most difficult to balance correctly, bar none. Requires the DeCiv 2 fork and will not work with Redux.
+Second attempt to rebalance The Mechanized faction, originally created by Bamboolord and is notorious among the DeCiv community as the faction whose gimmick makes it the most difficult to balance correctly. 
+This is my own take to rebalance The Mechanized faction to make it as viable as possible when playing. 
+**Warning AI doesn't know how to play this faction optimally so be catiuos in your games!**
+Also check out The Mechanized, Refurbished mod made by https://github.com/SpacedOutChicken/Deciv-2/commits?author=the-s-is-silent
+Requires the DeCiv 2 fork and will not work with Redux.
