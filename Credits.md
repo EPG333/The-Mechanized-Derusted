@@ -14,3 +14,4 @@ All icons that have been added after he discontinued work on The Mechanized are 
 
 ### Unit Icons
 - Refurbished Purge Robot: Reuses the same icon as Purge Robot and its Salvaged version in base DeCiv, [space marine](https://thenounproject.com/icon/space-marine-118882/) by Robert Bjurshagen, DE
+- Autonomous Sapper: [Space marine](https://thenounproject.com/icon/space-marine-118891/) by Robert Bjurshagen, DE
