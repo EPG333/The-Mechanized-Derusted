@@ -129,12 +129,18 @@
 			"Arabic Shelter",
 			"Artificial Lab",
 			"Settle the Wires",
+			"Input/Output",
+			"Ghost Signal",
 			"People need Power",
 			"Freedom for Machines",
 			"Error.Name-failed",
 			"Solar Sandstorm Plant",
+			"Silicon Fields",
+			"Scrapland",
+			"Amalgamated Grid",
 			"Labtown",
-			"Creationist Crate"
+			"Creationist Crate",
+			"Omega Terminus"
 		],
 		"spyNames": ["Lock", "Trinity", "Sparks", "Ghost", "Link", "Seraph", "Cypher", "Quillion", "Morpheus", "Switch"]
 	}
