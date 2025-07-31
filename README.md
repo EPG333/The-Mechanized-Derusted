@@ -3,5 +3,5 @@ Second attempt to rebalance The Mechanized faction, originally created by Bamboo
 This is my own take to rebalance The Mechanized faction to make it as viable as possible when playing. 
 **Warning AI doesn't know how to play this faction optimally so be catiuos in your games!**
 Also check out https://github.com/the-s-is-silent/The-Mechanized-Refurbished
-[Link Text](https://github.com/the-s-is-silent/The-Mechanized-Refurbished).
+[[Link Text](https://github.com/the-s-is-silent/The-Mechanized-Refurbished)](https://github.com/the-s-is-silent/The-Mechanized-Refurbished).
 Requires the DeCiv 2 fork and will not work with Redux.
